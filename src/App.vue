@@ -2,17 +2,20 @@
   <div>
     <topbar></topbar>
     <home></home>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import home from './views/Home.vue'
 import topbar from './views/Topbar.vue'
+import Footer from './views/Footer'
 export default {
   name: 'App',
   components: {
     home,
-    topbar
+    topbar,
+    Footer
   }
 }
 </script>
@@ -22,9 +25,15 @@ export default {
           font-family: 'Xingkai';
           src: url('./font/STXINGKA.TTF') format('truetype');
         }
+        body{
+          margin: 0;
+          overflow-x:hidden;
+
+        }
         .grid-container {
             /*网格容器*/
             width: 100%;
+            
         }
         .row::after,
         .row::before {
