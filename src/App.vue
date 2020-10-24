@@ -22,8 +22,9 @@ export default {
 
 <style>
         @font-face{
-          font-family: 'Xingkai';
-          src: url('./font/STXINGKA.TTF') format('truetype');
+          font-family: 'XingKai';
+          src: url('./font/stxingka.woff2') format('woff2'),
+          url('./font/stxingka.ttf') format('truetype');
         }
         body{
           margin: 0;

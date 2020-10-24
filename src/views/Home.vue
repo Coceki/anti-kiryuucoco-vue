@@ -232,7 +232,7 @@ input{
 .hengpi{
   margin:0 auto;
   padding: 10px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 50px;
   background-color: black;
   color: white;
@@ -248,7 +248,7 @@ input{
   padding: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 50px;
   background-color: black;
   color: white;
@@ -264,26 +264,26 @@ input{
   text-align:center;
   margin:0 auto;
   padding: 20px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 150px;
 }
 .tutan{
   text-align:center;
   margin:0 auto;
   padding: 20px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 40px;
 }
 .tutaninput{
   text-align:center;
   margin:0 auto;
   padding: 20px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 30px;
 }
 .info{
   padding: 20px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 30px;
 }
 </style>
