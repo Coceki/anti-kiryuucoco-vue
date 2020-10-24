@@ -259,7 +259,7 @@ input{
 }
 .cocopic{
   max-width: 90%;
-  max-height: 200px;
+  max-height: 260px;
 }
 .dian{
   text-align:center;
@@ -270,7 +270,7 @@ input{
 }
 .tutan{
   text-align:center;
-  margin:0 auto;
+  margin:20px auto 0 auto;
   padding: 20px;
   font-family: 'XingKai', serif;
   font-size: 40px;
