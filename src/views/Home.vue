@@ -172,6 +172,7 @@ methods:{
   }
 }
 .btn{
+  cursor: pointer;
   position: relative;
   border-radius: 16px;
   display: inline-block;
