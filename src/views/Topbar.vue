@@ -27,7 +27,7 @@ export default {
 .titletext{
     padding: 10px;
     color:white;
-    font-family: Xingkai;
+    font-family: 'XingKai', serif;
     font-size: 30px;
 
 }

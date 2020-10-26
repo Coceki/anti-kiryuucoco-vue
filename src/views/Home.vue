@@ -45,8 +45,8 @@
       <div class="info">
         <p>
           这个网站将会永久运行，以告诫各位有识之士，只懂逐利不懂尊重的企业要让它滚出中国！
-          <img :src="antiholo">
         </p>
+        <img :src="antiholo">
       </div>
     </div>
   </div>
@@ -172,6 +172,7 @@ methods:{
   }
 }
 .btn{
+  cursor: pointer;
   position: relative;
   border-radius: 16px;
   display: inline-block;
@@ -232,7 +233,7 @@ input{
 .hengpi{
   margin:0 auto;
   padding: 10px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 50px;
   background-color: black;
   color: white;
@@ -248,7 +249,7 @@ input{
   padding: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 50px;
   background-color: black;
   color: white;
@@ -258,32 +259,46 @@ input{
 }
 .cocopic{
   max-width: 90%;
-  max-height: 200px;
+  max-height: 260px;
 }
 .dian{
   text-align:center;
   margin:0 auto;
   padding: 20px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 150px;
 }
 .tutan{
   text-align:center;
-  margin:0 auto;
+  margin:20px auto 0 auto;
   padding: 20px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 40px;
 }
 .tutaninput{
   text-align:center;
   margin:0 auto;
   padding: 20px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 30px;
 }
 .info{
   padding: 20px;
-  font-family: Xingkai;
+  font-family: 'XingKai', serif;
   font-size: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info p {
+  flex: 0 1 auto;
+  margin: 30px 0;
+}
+.info img {
+  display: block;
+  flex: 0 0 auto;
+  width: 60px;
+  height: 60px;
 }
 </style>
